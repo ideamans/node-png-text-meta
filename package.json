@@ -1,0 +1,19 @@
+{
+  "name": "png-text-meta",
+  "version": "0.1.0",
+  "author": "Kunihiko Miyanaga <miyanaga@ideamans.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v",
+    "watch": "ava -vw"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^1.2.0"
+  },
+  "dependencies": {
+    "png-chunk-text": "^1.0.0",
+    "png-chunks-encode": "^1.0.0",
+    "png-chunks-extract": "^1.0.0"
+  }
+}
