@@ -1,6 +1,6 @@
 {
   "name": "png-text-meta",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Kunihiko Miyanaga <miyanaga@ideamans.com",
   "main": "index.js",
   "scripts": {
