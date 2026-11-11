@@ -1,6 +1,6 @@
-import test from 'ava'
-import PngTextMeta from '../'
-import Path from 'path'
+const test = require('ava').default
+const PngTextMeta = require('../')
+const Path = require('path')
 
 test.beforeEach(async t => {
   t.context.src = await PngTextMeta.toBuffer(Path.join(__dirname, 'data/dices8.png'))
